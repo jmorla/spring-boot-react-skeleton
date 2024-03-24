@@ -13,7 +13,7 @@ import org.springframework.web.servlet.ModelAndView;
     stylesheets = "/sample.css"
 )
 @Controller
-@RequestMapping("/sample")
+@RequestMapping("/")
 public class SampleController extends AbstractPage {
 
     @GetMapping
