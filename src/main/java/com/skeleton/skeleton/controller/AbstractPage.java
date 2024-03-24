@@ -1,4 +1,4 @@
-package com.bytetechsolutions.skeleton.controller;
+package com.skeleton.skeleton.controller;
 
 import java.io.IOException;
 import java.util.Map;
@@ -8,9 +8,9 @@ import org.springframework.core.io.Resource;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.bytetechsolutions.skeleton.model.ViewDescriptor;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.skeleton.skeleton.model.ViewDescriptor;
 
 /**
  * The BaseController class provides basic functionalities for managing web page

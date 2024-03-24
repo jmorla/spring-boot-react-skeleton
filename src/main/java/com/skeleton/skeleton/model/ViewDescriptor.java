@@ -1,4 +1,4 @@
-package com.bytetechsolutions.skeleton.model;
+package com.skeleton.skeleton.model;
 
 import lombok.Getter;
 import lombok.Setter;

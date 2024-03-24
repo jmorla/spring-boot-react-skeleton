@@ -1,4 +1,4 @@
-package com.bytetechsolutions.skeleton;
+package com.skeleton.skeleton;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.bytetechsolutions.skeleton;
+package com.skeleton.skeleton;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

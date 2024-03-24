@@ -1,4 +1,4 @@
-package com.bytetechsolutions.skeleton.controller;
+package com.skeleton.skeleton.controller;
 
 import org.jmorla.viewdescriptor.View;
 import org.springframework.stereotype.Controller;
@@ -7,14 +7,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @View(
-    title = "Sample page",
-    entryPoint = "sample.jsx",
-    scripts = "/sample.js",
-    stylesheets = "/sample.css"
+    title = "Skeleton | Employees",
+    entryPoint = "employees.jsx",
+    scripts = "employees.js",
+    stylesheets = "employees.css"
 )
 @Controller
-@RequestMapping("/sample")
-public class SampleController extends AbstractPage {
+@RequestMapping("/employees")
+public class EmployeePageController extends AbstractPage {
 
     @GetMapping
     public ModelAndView handleGet(ModelAndView model) {
@@ -25,6 +25,4 @@ public class SampleController extends AbstractPage {
     public String getDescriptorName() {
         return getClass().getCanonicalName();
     }
-
-    
 }
