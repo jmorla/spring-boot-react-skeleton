@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: skeleton
+  
+  devtools:
+    restart:
+      additional-paths: src/main/react
